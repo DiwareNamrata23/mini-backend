@@ -23,7 +23,7 @@ const blogSchema = new mongoose.Schema({
         type: String,
     },
 
-});
+},timestamps:true);
 
 const Blog = mongoose.model('Blog', blogSchema);
 
