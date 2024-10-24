@@ -11,6 +11,6 @@ const UserSchema = new mongoose.Schema({
         required: true,
     },
     // Add any other user fields you need
-});
+},timestamps:true);
 
 module.exports = mongoose.model('User', UserSchema);
